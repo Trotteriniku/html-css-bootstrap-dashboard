@@ -15,14 +15,13 @@ body{
     height: 100vh;
 }
 
-header{
-    /* height: 70px; */
-}
+
 
 main{
-    height: calc(100% - 70px);
-    /* height: 100%; */
+    height: calc(100% - 73.6px);
 }
+
+ 
 
 .bg-kj-searchbar{
     background-color: var(--color-bg-search-bar);
@@ -45,6 +44,28 @@ main{
     width: calc(100% - 150px);
 }
 
-.mi{
-    height: 10px;
+.mini-logo{
+    width: 50px;
+    height: 50px;
 }
+
+.top-side{
+    height: calc(100% - 50px);
+}
+.bottom-side{
+    height: 50px;
+}
+@media screen and (max-width:1200px) {
+    main{
+        height: calc(100% - 83.6px);
+    }
+ }
+
+ @media screen and (max-width:992px) {
+     #side-bar{
+        width: 75px;
+     } 
+    #main-content{
+        width: calc(100% - 75px);
+    }
+ }
