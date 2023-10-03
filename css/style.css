@@ -8,6 +8,7 @@ body{
     --color-bg-body: #f8f9fa;
     --color-side-bar: #0f263d;
     --color-nav-bar: #1b72e8;
+    --color-bell: #ff8f00;
 }
 .wrapper{
     width: 100%;
@@ -15,13 +16,23 @@ body{
 }
 
 header{
-    height: 70px;
+    /* height: 70px; */
 }
 
 main{
     height: calc(100% - 70px);
+    /* height: 100%; */
 }
 
+.bg-kj-searchbar{
+    background-color: var(--color-bg-search-bar);
+}
+.bg-kj-body{
+    background-color: var(--color-bg-body);
+}
+.text-bell{
+    color: var(--color-bell);
+}
 #side-bar{
     width: 150px;
     height: 100%;
@@ -32,4 +43,8 @@ main{
 
 #main-content{
     width: calc(100% - 150px);
+}
+
+.mi{
+    height: 10px;
 }
