@@ -55,6 +55,11 @@ main{
 .bottom-side{
     height: 50px;
 }
+
+td img{
+    width: 25px;
+    height: 25px;
+}
 @media screen and (max-width:1200px) {
     main{
         height: calc(100% - 83.6px);
