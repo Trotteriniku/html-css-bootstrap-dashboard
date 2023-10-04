@@ -69,9 +69,9 @@ td img{
     background-color: rgba(255, 255, 255, 0.486);
 }
  @media screen and (min-width:1200px) {
-    /* .my-width{
+    .my-width{
        width: 50%!important;
-   } */
+   }
 }
 
 
