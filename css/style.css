@@ -68,7 +68,7 @@ td img{
 .top-side a:hover{
     background-color: rgba(255, 255, 255, 0.486);
 }
- @media screen and (min-width:1200px) {
+ @media screen and (min-width:992px) {
     .my-width{
        width: 50%!important;
    }
