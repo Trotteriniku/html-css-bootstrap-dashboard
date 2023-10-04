@@ -68,6 +68,12 @@ td img{
 .top-side a:hover{
     background-color: rgba(255, 255, 255, 0.486);
 }
+.campanella{
+    transition:all 0.5s ;
+}
+.campanella:active{
+    transform: scale(1.3);
+}
  @media screen and (min-width:992px) {
     .my-width{
        width: 50%!important;
