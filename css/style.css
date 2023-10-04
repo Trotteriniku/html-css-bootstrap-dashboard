@@ -24,7 +24,9 @@ main{
 }
 
  
-
+.bg-kj-navbar{
+    background-color: var(--color-nav-bar);
+}
 .bg-kj-searchbar{
     background-color: var(--color-bg-search-bar);
 }
@@ -61,6 +63,9 @@ main{
 td img{
     width: 25px;
     height: 25px;
+}
+.top-side a:hover{
+    background-color: rgba(255, 255, 255, 0.486);
 }
 @media screen and (max-width:1200px) {
     main{
