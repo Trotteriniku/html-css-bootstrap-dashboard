@@ -15,10 +15,12 @@ body{
     height: 100vh;
 }
 
-
+header{
+    /* height: 70px; */
+}
 
 main{
-    height: calc(100% - 73.6px);
+    height: calc(100% - 90px);
 }
 
  
@@ -35,7 +37,7 @@ main{
 #side-bar{
     width: 150px;
     height: 100%;
-    /* mettere alla fine overflow hidden alla fine */
+    overflow: hidden;
     background-image:url(../img/sidebar-bg.png) ;
     background-color: var(--color-side-bar);
 }
