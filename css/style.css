@@ -3,12 +3,14 @@ body{
     background-color: var(--color-bg-body);
     
 }
+
 :root {
-    --color-bg-search-bar: #e5e5e5;
-    --color-bg-body: #f8f9fa;
-    --color-side-bar: #0f263d;
-    --color-nav-bar: #1b72e8;
-    --color-bell: #ff8f00;
+	--color-bg-search-bar: #e5e5e5;
+	--color-bg-body: #f8f9fa;
+	--color-side-bar: #0f263d;
+	--color-nav-bar: #1b72e8;
+	--color-bell: #ff8f00;
+	--color-bg-badge: #165bba;
 }
 .wrapper{
     width: 100%;
@@ -23,7 +25,9 @@ main{
     height: calc(100% - 90px);
 }
 
- 
+.bg-kj-badge{
+    background-color: var(--color-bg-badge);
+}
 .bg-kj-navbar{
     background-color: var(--color-nav-bar);
 }
@@ -43,16 +47,13 @@ main{
     background-image:url(../img/sidebar-bg.png) ;
     background-color: var(--color-side-bar);
 }
-
 #main-content{
     width: calc(100% - 150px);
 }
-
 .mini-logo{
     width: 50px;
     height: 50px;
 }
-
 .top-side{
     height: calc(100% - 50px);
 }
@@ -67,17 +68,24 @@ td img{
 .top-side a:hover{
     background-color: rgba(255, 255, 255, 0.486);
 }
-@media screen and (max-width:1200px) {
-    main{
-        height: calc(100% - 83.6px);
-    }
- }
+ @media screen and (min-width:1200px) {
+    /* .my-width{
+       width: 50%!important;
+   } */
+}
+
 
  @media screen and (max-width:992px) {
      #side-bar{
         width: 75px;
      } 
+
+     .my-width{
+        width: 100%!important;
+    }
     #main-content{
         width: calc(100% - 75px);
     }
  }
+ 
+
